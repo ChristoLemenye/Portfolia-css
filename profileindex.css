@@ -1,0 +1,109 @@
+.body {
+  color: rgb(64, 81, 78);
+  text-align: center;
+  font-family: Merriweather, serif;
+  margin: 0px;
+}
+
+.top-container {
+  background-color: rgb(228, 249, 245);
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-micky {
+  position: absolute;
+  right: 30px;
+  top: 3px;
+  border-radius: 50px;
+}
+
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(102, 191, 191);
+  padding-bottom: 10px;
+}
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.625rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.symbols {
+  border: 5px solid;
+}
+
+.image {
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 50px;
+  border: 5px solid black;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.parent {
+  display: grid;
+  grid-template-rows: 1r 1fr;
+  grid-template-columns: 0.5fr 1fr;
+
+  width: 50%;
+  row-gap: 2rem;
+  margin: 100px auto 0px;
+  text-align: left;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.btn {
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  background: linear-gradient(rgb(17, 205, 212), rgb(17, 153, 158))
+    rgb(17, 205, 212);
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: rgb(102, 191, 191);
+  padding: 50px 0px 20px;
+  margin-top: 30px;
+}
+
+@media (max-width: 680px) {
+}
